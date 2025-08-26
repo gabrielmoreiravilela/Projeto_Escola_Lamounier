@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(/ASSETS/Fundo_Lamounier.jpg);
+  background-size:cover;
+  color: #fff;
+  padding: 10px;
+  font-family: "Cabrito Semi Con", sans-serif;
+}
+
+@font-face {
+  font-family: "Cabrito Semi Con";
+  src: url("../FONTS/cabritosemi-con-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#topo{
+  display:flex;
+  align-items: center;
+}
+
+main{
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+}
+
