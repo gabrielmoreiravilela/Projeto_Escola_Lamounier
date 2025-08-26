@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Cabrito Semi Con";
+  src: url("../FONTS/cabritosemi-con-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background: #fdfdfd;
+  background: gray;
   margin: 0;
   padding: 0;
 }
@@ -12,14 +19,6 @@ header {
   padding: 10px;
   font-family: "Cabrito Semi Con", sans-serif;
 }
-
-@font-face {
-  font-family: "Cabrito Semi Con";
-  src: url("../FONTS/cabritosemi-con-regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 #topo{
   display:flex;
@@ -41,7 +40,7 @@ nav a {
 
 footer {
   text-align: center;
-  background: #eee;
+  background: gray;
   padding: 10px;
 }
 
